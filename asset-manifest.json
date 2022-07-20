@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/future-machines/static/css/main.df808486.css",
-    "main.js": "/future-machines/static/js/main.c8f2b019.js",
+    "main.js": "/future-machines/static/js/main.53cdcd0b.js",
     "index.html": "/future-machines/index.html",
     "main.df808486.css.map": "/future-machines/static/css/main.df808486.css.map",
-    "main.c8f2b019.js.map": "/future-machines/static/js/main.c8f2b019.js.map"
+    "main.53cdcd0b.js.map": "/future-machines/static/js/main.53cdcd0b.js.map"
   },
   "entrypoints": [
     "static/css/main.df808486.css",
-    "static/js/main.c8f2b019.js"
+    "static/js/main.53cdcd0b.js"
   ]
 }
