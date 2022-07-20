@@ -1,0 +1,45 @@
+.home {
+  height: 100vmin;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.646);
+
+  .title{
+    font-size: 44px;
+  }
+
+  .blur {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(83, 83, 83, 0.157);
+  }
+
+  .logo-grande {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .image {
+    // background-color: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0);
+    z-index: 99;
+  }
+}
+
+
+@media screen and(max-width: 600px) {
+  .home{
+    height: 100vh;
+    .image{
+      .logo-grande{
+        width: 300px;
+      }
+    }
+  }
+  
+}
