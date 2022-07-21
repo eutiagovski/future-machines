@@ -25,7 +25,7 @@ const HomePage = () => {
     <div className="home">
       <div className="blur"></div>
       <div className="image">
-      <img src="/assets/img/machines_logo.png" alt="" className="logo-grande img-fluid"/>
+      <img src={require("../../public/assets/img/machines_logo.png")}  alt="" className="logo-grande img-fluid"/>
       </div>
     </div>
   );

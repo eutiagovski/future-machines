@@ -45,11 +45,13 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="left">
           <div className="logo-container">
-          <img src="/assets/img/fmachines_logo_branca.png" alt="" className="logo" />
+          <img src={require("../../public/assets/img/fmachines_logo_branca.png")} alt="" className="logo" />
           </div>
         </div>
         <div className="center"></div>
         <div className="right">
+          <a href="mailto:contato@ilinda.com.br">contato@ilinda.com.br</a>
+          <a href="">Rio de Janeiro, RJ</a>
           {/* <div>
             <Button
               id="basic-button"
@@ -57,9 +59,10 @@ const Navbar = () => {
               aria-haspopup="true"
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
-              className="button"
+              className="d-flex"
             >
-              Produtos
+              contato@ilinda.com.br
+              Rio de Janeiro, RJ
             </Button>
             <Menu
               id="basic-menu"
@@ -78,9 +81,9 @@ const Navbar = () => {
                   </MenuItem>
                 ))}
             </Menu>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <Button
               id="basic-button1"
               aria-controls={open ? "basic-menu1" : undefined}
