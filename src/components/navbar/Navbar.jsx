@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
         <div className="center"></div>
         <div className="right">
-          <a href="mailto:contato@ilinda.com.br">contato@ilinda.com.br</a>
+          <a href="mailto:contato@fmachines.com.br">contato@fmachines.com.br</a>
           <a href="">Rio de Janeiro, RJ</a>
           {/* <div>
             <Button

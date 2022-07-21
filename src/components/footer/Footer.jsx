@@ -14,8 +14,11 @@ const Footer = () => {
             />
             <div className="item">
               <div className="title">FUTURE MACHINES</div>
-              <span><a href="mailto:contato@ilinda.com.br">contato@fmachines.com.br</a></span>
-
+              <span>
+                <a href="mailto:contato@fmachines.com.br">
+                  contato@fmachines.com.br
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -44,7 +47,11 @@ const Footer = () => {
         <div className="right">
           <div className="item">
             <div className="title">Nossos Produtos</div>
-            <span>iLinda - Sistema para Clínicas de Estética e Salões de Beleza</span>
+            <span>
+              <a href="https://www.ilinda.com.br">
+                iLinda - Sistema para Clínicas de Estética e Salões de Beleza
+              </a>
+            </span>
             <span>Brilho DMX - Controlador DMX Wi-Fi</span>
           </div>
 
